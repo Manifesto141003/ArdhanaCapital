@@ -4,15 +4,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory (the `frontend` folder), you can run:
 
-### `npm start`
+### `npm start` or `npm run dev`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+> ⚠️ Make sure you run this from the `frontend` folder, not `frontend/src`. Running scripts from `frontend/src` will cause `npm` to report a missing script or exit with code 1.
 
 ### `npm test`
 

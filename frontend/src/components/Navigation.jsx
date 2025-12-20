@@ -58,15 +58,11 @@ export const Navigation = () => {
           </div>
 
           <div className="hidden md:block">
-            <Button
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
-              onClick={() => {
-                const modal = document.getElementById('get-started-modal');
-                if (modal) modal.style.display = 'flex';
-              }}
-            >
-              Get Started
-            </Button>
+            <Link to="/contact">
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold">
+                Contact
+              </Button>
+            </Link>
           </div>
 
           <button
@@ -104,16 +100,15 @@ export const Navigation = () => {
                 </Button>
               </Link>
             ))}
-            <Button
-              className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
-              onClick={() => {
-                setIsMobileMenuOpen(false);
-                const modal = document.getElementById('get-started-modal');
-                if (modal) modal.style.display = 'flex';
-              }}
-            >
-              Get Started
-            </Button>
+            <Link to="/contact">
+              <Button
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Contact Us
+              </Button>
+            </Link>
+
           </div>
         </motion.div>
       )}

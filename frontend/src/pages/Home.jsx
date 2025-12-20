@@ -218,16 +218,14 @@ export const Home = () => {
               <p className="text-lg text-muted-foreground mb-8">
                 Join over 850 clients who trust us with their financial future
               </p>
-              <Button
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 h-12 text-base"
-                onClick={() => {
-                  const modal = document.getElementById('get-started-modal');
-                  if (modal) modal.style.display = 'flex';
-                }}
-              >
-                Get Started Today
-              </Button>
+              <Link to="/contact">
+                <Button
+                  size="lg"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 h-12 text-base"
+                >
+                  Contact Us
+                </Button>
+              </Link>
             </motion.div>
           </div>
         </div>

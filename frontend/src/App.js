@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import { Navigation } from './components/Navigation';
-import { GetStartedModal } from './components/GetStartedModal';
 import { Home } from './pages/Home';
 import { Performance } from './pages/Performance';
 import { RiskMetrics } from './pages/RiskMetrics';
 import { Education } from './pages/Education';
 import { Approach } from './pages/Approach';
+import { Contact } from './pages/Contact';
 import './App.css';
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
           <Route path="/risk-metrics" element={<RiskMetrics />} />
           <Route path="/education" element={<Education />} />
           <Route path="/approach" element={<Approach />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-        <GetStartedModal />
         <Toaster position="top-right" richColors />
       </BrowserRouter>
     </div>
