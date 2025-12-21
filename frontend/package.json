@@ -58,11 +58,14 @@
     "zod": "^3.24.4"
   },
   "scripts": {
-    "start": "craco start",
-    "dev": "craco start",
-    "build": "craco build",
-    "test": "craco test"
-  },
+  "start": "craco start",
+  "dev": "craco start",
+  "build": "craco build",
+  "test": "craco test",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
+"homepage": "https://Manifesto141003.github.io/WebSiteAsem",
   "browserslist": {
     "production": [
       ">0.2%",
