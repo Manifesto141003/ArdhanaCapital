@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/WebSiteAsem/static/css/main.f6d70722.css",
-    "main.js": "/WebSiteAsem/static/js/main.173b1473.js",
+    "main.css": "/WebSiteAsem/static/css/main.8e1a4aed.css",
+    "main.js": "/WebSiteAsem/static/js/main.82004eaa.js",
     "index.html": "/WebSiteAsem/index.html",
-    "main.f6d70722.css.map": "/WebSiteAsem/static/css/main.f6d70722.css.map",
-    "main.173b1473.js.map": "/WebSiteAsem/static/js/main.173b1473.js.map"
+    "main.8e1a4aed.css.map": "/WebSiteAsem/static/css/main.8e1a4aed.css.map",
+    "main.82004eaa.js.map": "/WebSiteAsem/static/js/main.82004eaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6d70722.css",
-    "static/js/main.173b1473.js"
+    "static/css/main.8e1a4aed.css",
+    "static/js/main.82004eaa.js"
   ]
 }
