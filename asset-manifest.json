@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ArdhanaCapital/static/css/main.93cca1b8.css",
-    "main.js": "/ArdhanaCapital/static/js/main.19742424.js",
+    "main.css": "/ArdhanaCapital/static/css/main.0c179d51.css",
+    "main.js": "/ArdhanaCapital/static/js/main.04cca0d7.js",
     "index.html": "/ArdhanaCapital/index.html",
-    "main.93cca1b8.css.map": "/ArdhanaCapital/static/css/main.93cca1b8.css.map",
-    "main.19742424.js.map": "/ArdhanaCapital/static/js/main.19742424.js.map"
+    "main.0c179d51.css.map": "/ArdhanaCapital/static/css/main.0c179d51.css.map",
+    "main.04cca0d7.js.map": "/ArdhanaCapital/static/js/main.04cca0d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.93cca1b8.css",
-    "static/js/main.19742424.js"
+    "static/css/main.0c179d51.css",
+    "static/js/main.04cca0d7.js"
   ]
 }
